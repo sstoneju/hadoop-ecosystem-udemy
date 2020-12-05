@@ -20,4 +20,6 @@ $ docker stop sandbox-proxy
 alias start-hdp="docker start sandbox-hdp && docker start sandbox-proxy"
 alias stop-hdp="docker stop sandbox-hdp && docker stop sandbox-proxy"
 alias hdp-term="docker exec -it sandbox-hdp /bin/sh; exit"
+## TIP
+# docker run을 할 때 local을 바인드 마운트 해놓기...
 ```
